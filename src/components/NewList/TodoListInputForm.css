@@ -1,0 +1,43 @@
+.todolist-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  justify-content: center;
+
+  margin: 20px;
+
+  background-color: pink;
+}
+
+.todolist-input .todolist-input__date {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.todolist-input .todolist-input__content {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.todolist-input p {
+  font-size: 20px;
+}
+
+.todolist-input button {
+  background-color: mediumaquamarine;
+  width: 150px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

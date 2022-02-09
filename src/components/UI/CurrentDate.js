@@ -8,7 +8,7 @@ const CurrentDate = () => {
   const curDate = new Date().getDate();
   const curDay = day[new Date().getDay()];
 
-  const date = curYear + " 년 " + curMonth + " 월 " + curDate + " 일 " + curDay;
+  const date = "오늘 : " + curYear + " 년 " + curMonth + " 월 " + curDate + " 일 " + curDay + "요일";
 
   return (
     <div className="current-date">
